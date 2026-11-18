@@ -1,0 +1,24 @@
+[project]
+name = "messy-to-clean"
+version = "0.1.0"
+description = "A reproducible workflow for transforming messy data into clean, analysis-ready datasets."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "pytest",
+    "ruff",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
