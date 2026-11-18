@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model outputs (uncomment selectively if you intend to version small files)
+# data/raw/*
+# data/interim/*
+# data/processed/*
+# models/*
+
+# Generated reports
+reports/*.html
+reports/*.pdf
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
